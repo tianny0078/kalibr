@@ -136,8 +136,8 @@ inline const char * npyTypeToString(int npyType)
       return "NPY_NTYPES";
     case NPY_NOTYPE:
       return "NPY_NOTYPE";
-    case NPY_CHAR:
-      return "NPY_CHAR";
+    //case NPY_CHAR:
+      //return "NPY_CHAR";
     default:
       return "Unknown type";
     }
